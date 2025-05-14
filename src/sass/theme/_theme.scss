@@ -1,1 +1,187 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+/**
+Theme Name: MyPhysio
+Author: Wecode
+Author URI: https://wecode.swiss
+Description: Custom Wordpress Theme for MyPhysio Geneva.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: myphysio
+Template: astra
+*/
+
+:root {
+	--primary: #46789e;
+	--secondary: #ff6b00;
+	--primary-light: #e8f1f5;
+	--secondary-light: #fff3e6;
+	--primary-dark: #003366;
+	--secondary-dark: #ff6b00;
+	--primary-extra-light: #e8f1f5;
+	--secondary-extra-light: #ff6b00;
+}
+
+.text-max-w {
+	max-width: 750px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.bg-primary {
+	background-color: var(--primary) !important;
+}
+
+.section-type-1 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--primary-light);
+}
+
+.section-type-2 {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.bg-secondary {
+	background-color: var(--secondary) !important;
+}
+
+.mx-auto {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.h1,
+.h1 .elementor-heading-title {
+	font-size: 40px !important;
+	line-height: 1.2 !important;
+}
+
+.h2,
+.h2 .elementor-heading-title {
+	font-size: 32px !important;
+	line-height: 1.2 !important;
+}
+
+.h3,
+.h3 .elementor-heading-title {
+	font-size: 24px !important;
+	line-height: 1.2 !important;
+}
+
+.h4,
+.h4 .elementor-heading-title {
+	font-size: 20px !important;
+	line-height: 1.2 !important;
+}
+
+.h5,
+.h5 .elementor-heading-title {
+	font-size: 18px !important;
+	line-height: 1.2 !important;
+}
+
+.h6,
+.h6 .elementor-heading-title {
+	font-size: 16px !important;
+	line-height: 1.2 !important;
+}
+
+h1,
+.h1 {
+	font-size: 40px;
+	line-height: 1.2;
+}
+
+h2,
+.h2 {
+	font-size: 32px;
+	line-height: 1.2;
+}
+
+h3,
+.h3 {
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+h4,
+.h4 {
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+h5,
+.h5 {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+h6,
+.h6 {
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+.text-white,
+.text-white .elementor-heading-title {
+	color: #fff;
+}
+
+.text-black,
+.text-black .elementor-heading-title {
+	color: #000;
+}
+
+.ast-container:not(.site-primary-header-wrap) {
+	max-width: unset !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+/* Button Styles - Regular and Elementor */
+.btn:not(.elementor-widget-button),
+.elementor-element.btn:not(.elementor-button) .elementor-button {
+	font-weight: 600 !important;
+	border-radius: 999px !important;
+	transition: all 0.3s ease !important;
+}
+
+.btn:not(.elementor-widget-button) {
+	display: inline-block !important;
+	padding: 12px 24px !important;
+	text-decoration: none !important;
+}
+
+.btn-secondary:not(.elementor-widget-button),
+.elementor-element.btn-secondary:not(.elementor-button) .elementor-button {
+	background-color: var(--secondary) !important;
+	color: #fff !important;
+}
+
+.btn-secondary:not(.elementor-widget-button):hover,
+.elementor-element.btn-secondary:not(.elementor-button)
+	.elementor-button:hover {
+	background-color: var(--secondary-dark) !important;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Elementor button size */
+.elementor-button.elementor-size-sm {
+	font-size: 15px !important;
+	line-height: 1.5 !important;
+}
+
+.bento {
+	background-color: rgb(216, 239, 247);
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.wcd-page-header {
+	padding-top: 100px !important;
+	padding-bottom: 100px !important;
+	.elementor-heading-title {
+		color: white !important;
+	}
+}
